@@ -1,0 +1,64 @@
+.container{
+    height: 150px;
+    background-color: aqua;
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: black;
+}
+
+nav {
+      background-color: #000000;
+      padding: 15px;
+      font-size: 50px;
+}
+
+ul {
+      list-style: none;
+      display: flex;
+      justify-content: space-evenly;
+      margin: 0;
+      padding: 0;
+}
+
+li {
+      color: white;
+      cursor: pointer;
+      padding: 10px 20px;
+      border: 2px aqua;
+      border-radius: 8px;
+      transition: 0.3s;
+}
+
+li:hover {
+    background-color: aqua;
+    color: blue;
+}
+
+
+hr{
+    height: 30px;
+    background-color: aqua;
+}
+
+.home-img{
+    height: 250px;
+    width: 150px;
+    margin-top: 150px;
+    padding-left: 50px;
+}
+
+.home-content{
+    color: white;
+    padding-left: 1200px;
+    font-size: 70px;
+    
+}
+
+.content{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
