@@ -3,36 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Website</title>
-    <link rel="stylesheet" href="elyts.css">
+    <title>Grade Computation</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
     <div class="container">
+        <h1>Lecture grade calculator</h1>
+        <form action="scoreForm">
+            <label for="attendance">ATTENDANCE </label>
+            <input type="number" name="" id="attendance">
 
+            <label for="quiz">SCORE QUIZ</label>
+            <input type="number" name="" id="quiz">
+
+            <label for="exam">SCORE EXAM</label>
+            <input type="number" name="" id="exam">
+
+            <button type="button" onclick="CalculateScore()">CLICK</button>
+        </form>
+
+        <div id="result"></div>
     </div>
-    <header>
-        
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about me.html">About Me</a></li>
-                <li><a href="hobies.html">Hobies</a></li>
-                <li><a href="#">SIL</a></li>
-                <li><a href="info.html">Info</a></li>
-            </ul>
-        </nav>
-    </header>
-    <hr>
-    <section class="home">
-        <div class="home-img">
-            <img src="me.jpg" alt="">
-        </div>
-        <div class="home-content">
-            <h1>Welcome to my Website</h1>
-            <h2>And I am Chryse Louige K. Legaste</h2>
-        </div>
-    </section>
+
+    <script src="javscript.js"></script>
     
 </body>
 </html>

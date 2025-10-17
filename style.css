@@ -1,0 +1,11 @@
+body{
+    background-color: wheat;
+}
+
+.result{
+    color: black;
+}
+
+.container{
+    justify-content: space-between;
+}
