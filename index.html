@@ -2,30 +2,25 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Grade Computation</title>
+    <title>Simple Calculator</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Lecture grade calculator</h1>
-        <form action="scoreForm">
-            <label for="attendance">ATTENDANCE </label>
-            <input type="number" name="" id="attendance">
+    <center><h1>Simple Calculator</h1>
 
-            <label for="quiz">SCORE QUIZ</label>
-            <input type="number" name="" id="quiz">
+    <label>Enter 1st num:</label>
+    <input type="number" id="num1"><br><br>
 
-            <label for="exam">SCORE EXAM</label>
-            <input type="number" name="" id="exam">
+    <label> Enter Operator :</label>
+    <input type="text" id="operator" maxlength="1"><br><br>
 
-            <button type="button" onclick="CalculateScore()">CLICK</button>
-        </form>
+    <label>Enter 2nd num:</label>
+    <input type="number" id="num2"><br><br>
 
-        <div id="result"></div>
-    </div>
+    <button onclick="calculate()">Compute</button>
 
-    <script src="javscript.js"></script>
-    
+    <h3>Result: <span id="result"></span></h3>
+
+    <script src="index.js"></script></center>
 </body>
 </html>
